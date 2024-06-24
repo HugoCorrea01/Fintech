@@ -1,0 +1,52 @@
+/*MENU*/
+.navbar a.navbar-brand{
+    color:#6FF99D;
+    background-color: #052e5b;
+    font-weight: bold;
+}
+.navbar a.navbar-brand.text-custom {
+    color: #6FF99D;
+    background-color: #052e5b;
+    font-weight: bold;
+    transition: transform 0.3s, color 0.3s; /* Adicionei color à transição */
+    padding: 0.5rem; /* Adicionei padding para melhor visualização */
+}
+.navbar a.navbar-brand.text-custom:hover {
+    transform: scale(1.2);
+    color: #FFFFFF; /* Cor que o texto vai mudar ao passar o mouse */
+}
+.bg-custom {
+    background-color: #052e5b; }
+.form-center {
+    width: 100%;
+    max-width: 600px; /* ajuste esse valor conforme necessário */
+    margin: 0 auto;
+}
+.custom-nav{
+    background-color: #2c13cf;
+}
+/*FIM*/
+.custom-body{
+    background-color: #2b2b2b; /* Altere para a cor que você desejar */
+    
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart-container {
+    flex-shrink: 0;
+    width: 500; /* Ajuste a largura conforme necessário */
+    height: 200;
+}
+.text-container {
+    width: 45%; /* Ajuste a largura conforme necessário */
+    color: #6FF99D;
+    font-weight: bold;
+}
+.centered-text {
+    text-align: center;
+    font-weight: bold;
+    color: #6FF99D;
+}
