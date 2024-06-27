@@ -2,24 +2,23 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-
-
 .main-head{
     height: 150px;
-    background: #FFF;
-   
+    background: #dd2121;
 }
-
+.teste{
+    background-color: #052e5b;
+}
 .sidenav {
     height: 100%;
-    background-color: #000;
+    background-color: #1b1b1b;
     overflow-x: hidden;
     padding-top: 20px;
 }
 
-
 .main {
     padding: 0px 10px;
+    background-color: #052e5b; /* Cor cinza claro */
 }
 
 @media screen and (max-height: 450px) {
@@ -37,11 +36,11 @@ body {
 }
 
 @media screen and (min-width: 768px){
-    .main{
+    .main {
         margin-left: 40%; 
     }
 
-    .sidenav{
+    .sidenav {
         width: 40%;
         position: fixed;
         z-index: 1;
@@ -57,12 +56,14 @@ body {
         margin-top: 20%;
     }
 }
-
-
+.form-group{
+color: #00bd19;
+}
 .login-main-text{
     margin-top: 20%;
     padding: 60px;
-    color: #fff;
+    color: #16e703;
+    font-size: 20px;
 }
 
 .login-main-text h2{
@@ -70,6 +71,11 @@ body {
 }
 
 .btn-black{
-    background-color: #000 !important;
-    color: #fff;
+    background-color: #1b1b1b !important;
+    color: #0bdf4a;
+}
+.btn-secondary{
+    background-color: #1b1b1b !important;
+    color:#0bdf4a !important;
+    border-color: #1b1b1b !important;
 }
